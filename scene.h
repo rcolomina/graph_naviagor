@@ -33,7 +33,7 @@ public:
     string getName(){return name;}
 public:    
     int id;
-    Text name;
+    string name;
     Text introtext;
     list<Item*> itemsScene;
 };
@@ -71,8 +71,8 @@ public:
 private:
     // Store directions for each connection
     map<string,NodeScene*> directions;    
-    map<string,Bool> openDirections;
-    map<string,Bool> visibleDirections;
+    map<string,bool> openDirections;
+    map<string,bool> visibleDirections;
 
     // TODO: Simplified this using a connections/cardinal class
     // list<Cardinal> cardinals;
