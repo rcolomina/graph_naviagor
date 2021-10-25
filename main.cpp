@@ -35,6 +35,7 @@ bool visited(vector<string> nodesVisited,string item){
 // Walk All Nodes using Best First Search strategy
 template<typename T>
 void walkNodes(Node<T> *basepNode){
+    cout<<"Walk nodes in Best First Search strategy"<<endl;
     queue<Node<T> *> queueNodes;
     vector<string> nodesVisited;
     
@@ -54,6 +55,8 @@ void walkNodes(Node<T> *basepNode){
         }
         nodesVisited.push_back(node->getName());                    
     }
+    cout<<" "<<endl;
+    cout<<"Printing Visited Nodes"<<endl;
     for(auto it=nodesVisited.begin();
         it!=nodesVisited.end();
         ++it)
@@ -73,7 +76,7 @@ class Connection {
 
 int main(){
 
-    pIntNode nodeBase = new intNode("My Home");
+    pIntNode nodeBase = new intNode("home");
 
     list<string> placesToGo = {"tesco","office","mall"};;
     appendNeigbors(placesToGo,nodeBase);
@@ -92,6 +95,7 @@ int main(){
     walkNodes<int>(nodeBase);
 
     //// Test NodeScene
+    cout<<" "<<endl;
     cout<<"Testing NodeScene"<<endl;
     map<string,NodeScene*> myWorld;
 
