@@ -6,14 +6,20 @@ Specializations have been created for testing purposes.
 
 # Testing
 
-Walker using Best First Search strategy to navigate the graphs defined on testing. 
+There is a "walker" using Best First Search strategy to navigate testing graphs defined on main. 
 
-To compile the source 
+Download the repository:
+
+`$ git clone https://github.com/rcolomina/graph_navigator`
+
+After downloading, you need to compile the source code@ 
 
 `$ makefile`
 
-To test the code
+Now you can test the source code:
 
 `$ ./main`
 
-The graph will be run over its notes. 
+Testing graphs will be run over its notes showing its text content.
+
+You can extend testing adding additional grahp defined as it is done on main.
