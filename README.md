@@ -22,4 +22,4 @@ Now you can test the source code:
 
 Testing graphs will be run over its notes showing its text content.
 
-You can extend testing adding additional grahp defined as it is done on main.
+You can extend testing adding additional graphs. You can have a look to main to see how these are defined.
