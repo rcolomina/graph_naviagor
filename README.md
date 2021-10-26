@@ -9,7 +9,6 @@ The interesting thing of this library is regarding the generics. Each node can b
 This library focus is development on graph navigation, regardless the type of objects contained on its nodes. 
 
 ## Download Project
-There is a "walker" using Best First Search strategy to navigate testing graphs defined on main. 
 
 Download the repository:
 
@@ -26,9 +25,7 @@ Now you can test the source code:
 
 `$ ./main`
 
-Testing graphs will be run over its notes showing its text content.
+Testing graphs will run a strategy over its notes and showing text content of any node visited. There is implemented a "walker" which is using Best First Search (BFS) strategy to explore a graph. There are some testing graph defined in main. You can add easily additional graphs as it is done on main.
 
-You can extend testing adding additional graphs. You can have a look to main to see how these are defined.
-
-## Define New Graphs
-
+## Creating New Graphs
+Not documented yet.
