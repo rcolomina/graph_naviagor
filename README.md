@@ -1,12 +1,10 @@
 # Graph Navigator over a generic type T
 
-This is an example on how to use metaprogramming to create a graphs allowing to navigate over its generic type.
+This uses metaprogramming to naviage across a graphs regardless the type of objects contained on its nodes i.e. generic types .
 
 Specializations have been created for testing purposes.
 
-The interesting thing of this library is regarding the generics. Each node can be whatever you want, from a document, a web site, a scenario of a text adventure, any type of data that is arranged on a graph. 
-
-This library focus is development on graph navigation, regardless the type of objects contained on its nodes. 
+Interestingly, due to this library uses generics, each node can be whatever we want to be, from a document, a web site link, a scenario of a text adventure, or any other type of data that arranged on a graph. 
 
 ## Download Project
 
