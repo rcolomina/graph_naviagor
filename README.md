@@ -16,14 +16,14 @@ Download the repository:
 
 After downloading, you need to compile the source code@ 
 
-`$ makefile`
+`$ make`
 
 ## Testing Sample Graphs
 Now you can test the source code:
 
 `$ ./main`
 
-Testing graphs will run a strategy over its notes and showing text content of any node visited. There is implemented a "walker" which is using Best First Search (BFS) strategy to explore a graph. There are some testing graph defined in main. You can add easily additional graphs as it is done on main.
+Testing graphs will run a strategy over its notes and showing text content of any node visited. There is implemented a "walker" which is using Best First Search (BFS) strategy to explore a graph. There are some test graphs already defined in main, which can be used as guidance to add your own ones
 
 ## Creating New Graphs
 Not documented yet.
